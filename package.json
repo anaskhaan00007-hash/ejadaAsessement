@@ -1,0 +1,27 @@
+{
+  "name": "ejadaassessment",
+  "version": "1.0.0",
+  "description": "Playwright automation assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "login:test": "playwright test tests/login.spec.ts --headed",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:report": "allure generate allure-results --clean && allure open allure-report",
+    "login:report": "playwright test tests/login.spec.ts --headed; allure generate allure-results --clean; allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.4.3"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}

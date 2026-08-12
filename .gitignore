@@ -1,0 +1,18 @@
+# Allure
+allure-results/
+allure-report/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store

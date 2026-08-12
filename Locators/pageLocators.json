@@ -1,0 +1,22 @@
+{
+  "username": "//input[@id='user-name']",
+  "password": "//input[@id='password']",
+  "signIn": "//input[@id='login-button']",
+  "menuButton": "//button[@id='react-burger-menu-btn']",
+  "loginError": "//h3[@data-test='error']",
+
+  "product": "(//div[@class='inventory_item'])[1]",
+  "addToCart": "(//div[@class='inventory_item'])[1]//button",
+  "cart": "//a[@class='shopping_cart_link']",
+  "cartItem": "//div[@class='cart_item']",
+
+  "checkout": "//button[@id='checkout']",
+
+  "firstName": "//input[@id='first-name']",
+  "lastName": "//input[@id='last-name']",
+  "postalCode": "//input[@id='postal-code']",
+  "continue": "//input[@id='continue']",
+  "finish": "//button[@id='finish']",
+
+  "orderConfirmation": "//h2[@class='complete-header']"
+}
